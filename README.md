@@ -14,6 +14,20 @@ Airport Challenge
 ```
 This airport was written by Simon Glancy - 05/03/2015
 
+This was my first weekend challenge and attempt at Object Oriented design.
+
+My solution has two classes, airport and plane.
+
+Planes are initialized as flying and have take-off and landing methods that change the state of the @flying instance variable
+
+The Airport class is intialized with an empty @planes array into which plane objects are placed and removed using the allow_landing and allow_take_off methods.
+
+I have tried to encapsulate the design as much as possible, I have included the weather attribute within the airport class. This is something in the future I would extract to its own module.
+
+Tests are written in rspec all 23 pass and a feature test is included.
+
+Below are the challenge instructions.
+
 
 Instructions
 ---------
